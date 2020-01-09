@@ -1,0 +1,5 @@
+name = HiMolde 2009
+description = Based on bluemarine and himolde.no as of 2009
+version = VERSION
+core = 6.x
+engine = phptemplate

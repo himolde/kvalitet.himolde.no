@@ -1,0 +1,99 @@
+body, html {
+    height:100%;
+    margin:0px;
+}
+.head {
+    font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;
+    letter-spacing:1px;
+    font-weight:bold;
+    font-size:14px;
+    color:#444444;
+}
+div#header1 {
+    visibility:visible;
+    display:block;
+    position:absolute;
+    left:230px;
+    top:47px;
+    z-index:13;
+    width:745px;
+}
+div#header1_print {
+    display: none;
+}
+div#main_front {
+    visibility:visible;
+    display:block;
+    width: 670px;
+    position:absolute;
+    left:273px;
+    top:200px;
+    padding-bottom: 50px;
+}
+div#leftmenu {
+    visibility:visible;
+    display:block;
+    width:205px;
+    position:absolute;
+    left:27px;
+    top:220px;
+}
+div#footer {
+    background-color: #fff;
+    position: fixed; 
+    bottom: 0px;
+    width: 670px;
+}
+div#footer hr {
+    background-color: #C7EAFB;
+    color: #C7EAFB;
+    height: 3px;
+    border-width: 0;
+    margin: 5px 0 5px 0;
+}
+table.himolde-design {
+    border: 0;
+    padding: 0;
+}
+/* Overriding some settings from 57.css */
+ol > li {
+    list-style-type: decimal;
+}
+/* Overriding some Drupal value */
+table.himolde-design tbody {
+    border-top: 0;
+}
+td.views-field-changed {
+    white-space: nowrap;
+}
+div.view-himolde-prosesstabell tr {
+    vertical-align: top;
+}
+ul.vertical-tabs-list li {
+    list-style: none;
+}
+/* Moved from himolde-design-elements.html */
+div#ElementID7160Div {
+visibility:visible;display:block;position:absolute;left:13px;top:15px;z-index:1
+}
+div#ElementID7161Div {
+visibility:visible;display:block;position:absolute;left:230px;top:15px;z-index:2
+}
+div#ElementID7162Div {
+visibility:visible;display:block;position:absolute;left:13px;top:142px;z-index:3
+}
+div#ElementID7163Div {
+visibility:visible;display:block;position:absolute;left:986px;top:15px;z-index:4
+}
+div#ElementID7167Div {
+visibility:visible;display:block;position:absolute;left:238px;top:191px;z-index:7
+}
+div#ElementID7245Div {
+visibility:visible;display:block;position:absolute;left:719px;top:81px;z-index:5
+}
+div#ElementID7247Div {
+visibility:visible;display:block;position:absolute;left:745px;top:86px;z-index:106
+}
+div#ElementID7331Div {
+visibility:visible;display:block;position:absolute;left:986px;top:187px;z-index:9
+}

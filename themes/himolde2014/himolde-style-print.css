@@ -1,0 +1,16 @@
+@import url('himolde-style-not-loggedin.css');
+
+div#spi_header, div#menuHolder, div#spi_bottomtxt, div#tdRightColumn1, div#spi_breadcrumbs,
+div.noindex, div#footer a, span#front_page_link {
+    display:none;
+}
+div.spi_widecontentarea {
+    padding-top: 0px !important;
+}
+div#tdLeftColumn1 {
+    width: 100% !important;
+}
+
+td.views-field-changed {
+    white-space: nowrap;
+}

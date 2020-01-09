@@ -1,0 +1,54 @@
+@import url('himolde-style-not-loggedin.css');
+
+div#main_front_unused {
+    visibility:visible;
+    display:block;
+    width: 100%;
+    position: relative;
+    left:0px;
+    top:40px;
+    padding-bottom: 40px;
+}
+div#header1, div#header1_print, div#main_front {
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+div#header1_print {
+    display: block;
+    padding-bottom: 20px;
+}
+div#main_front h1 {
+    font-size: 2em;
+}
+
+h1.site-name, div#leftmenu, div#mainmenu, div#main_front div.breadcrumb, div#footer,
+div#ElementID7160Div, div#ElementID7161Div, div#ElementID7162Div, div#ElementID7163Div, div#ElementID7167Div, 
+div#ElementID7245Div, div#ElementID7247Div, div#ElementID7331Div {
+    display:none;
+}
+div#footer {
+    background-color: #fff;
+    position: fixed; 
+    bottom: 0px;
+    height: 20px;
+    width: 670px;
+}
+div#footer hr {
+    background-color: #C7EAFB;
+    color: #C7EAFB;
+    height: 3px;
+    border-width: 0;
+    margin: 5px 0 5px 0;
+}
+table.himolde-design {
+    border: 0;
+    padding: 0;
+}
+/* Overriding some Drupal value */
+table.himolde-design tbody {
+    border-top: 0;
+}
+td.views-field-changed {
+    white-space: nowrap;
+}

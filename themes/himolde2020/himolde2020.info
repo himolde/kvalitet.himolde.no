@@ -1,0 +1,7 @@
+name = HiMolde 2020
+description = Based on bluemarine and himolde.no as of 2020
+version = VERSION
+core = 6.x
+engine = phptemplate
+stylesheets[all][] = himolde-style.css
+stylesheets[print][] = himolde-style-print.css
